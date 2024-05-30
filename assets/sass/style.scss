@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jockey+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Dosis", sans-serif;
+}
+
+.absosulte { position: absolute; }
+.no-repeat { background-repeat: no-repeat; }
+.center { background-position: center; }
+.font-one { font-family: "Jockey One", sans-serif; }
+.bg-70 { width: 70%; }
+
+
+.bloque_container {
+    .element_max {
+        .main-main {
+
+
+            .banner_clash {
+                height: 550px;
+                background-image: url(../image/main_image/hero_bg_clashofclans_.fae7c799.webp);
+                background-position: bottom;
+                background-size: cover;
+                .logoClash {
+                    width: 200px;
+                    height: 100px;
+                    background-color: #191919;
+                    background-image: url(../image/main_image/supercell_logo.38ec5826.webp);
+                    background-position: center;
+                    background-size: 40%;
+                    left: 200px;                    
+                }
+            }
+            .link_pl {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                height: 120px;
+                .appstore {
+                    width: 200px;
+                    height: 80px;
+                }
+                .v1 {background-image: url(../image/appstore/amazon_appstore.7b543a13.webp); background-size: 90%;}
+                .v2 {background-image: url(../image/appstore/appstore.c44572b2.webp); background-size: 80%;}
+                .v3 {background-image: url(../image/appstore/googleplay.4ced544f.webp); background-size: 85%;}
+            }
+        }
+        .section-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .bloque_nm1 {
+                display: flex;
+                max-width: 1600px;
+                position: relative;
+                .image_hero {
+                    background-image: url(../image/hero/clash-of-clans_hub_avatar_v01.png);   
+                    background-size: 600px; 
+                    width: 600px;
+                    height: 600px;
+                }
+                .blolque_information {
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 85px;
+                    position: relative;
+                    .h1_text {
+                        font-size: 40px;
+                        margin-bottom: 30px;
+                    }
+                    .p_text {
+                        font-size: 20px;
+                    }
+                    .bloque_buttons {
+                        margin-top: 20px;
+                        display: flex;
+                        gap: 10px;
+                        .youtube {
+                            width: 160px;
+                            height: 45px;
+                            border: none;
+                            background-color: #FF0000;
+                            background-image: url(../../path_svg/Frame\ 6.svg);  
+                            border-radius: 10px;                          
+                        }
+                        .twitter {
+                            width: 45px;
+                            height: 45px;
+                            border: none;
+                            background-color: #1DA1F2;
+                            background-image: url(../../path_svg/descarga\ 1.svg);  
+                            border-radius: 10px;  
+                        }
+                    }
+
+                    .image_machine-element_v1 {
+                        background-image: url(../image/machine/Destrozamuros_info.webp);
+                        background-size: cover;
+                        width: 300px;
+                        height: 300px;
+                        transform: scaleX(-1);
+                        position: absolute;
+                        right: 0;
+                        bottom: -60px;
+                    }
+                }
+            }
+
+            .bloque_nm2 {
+                max-width: 1600px;
+
+                margin-top: 200px;
+                display: flex;
+                justify-content: center;
+                gap: 80px;
+                .image_city {
+                    background-image: url(../image/city-hall/town-hall-16.png);
+                    background-size: contain;
+                    width: 350px;
+                    height: 350px;
+                    position: relative;                    
+                }
+                .blolque_information {
+                    width: 60%;
+                    position: relative;
+                    .bloque_tittle {
+                        transform: translate(-86px, 0px);
+                        .h3_text-top, .h3_text-bottom {
+                            font-size: 40px;    
+                            .lvl-Top {
+                                color: #FF0000;
+                                font-size: 60px;
+                                margin-left: 10px;
+                            }                        
+                        }
+                        .h3_text-bottom {
+                            transform: translate(46px, -33px);
+                        }
+                    }
+                    .h4_text {
+                        font-size: 40px;
+                        margin-bottom: 20px;
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                        .image_deecoration {
+                            background-image: url(../image/decoration/halloween2015.png);
+                            background-size: contain;
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                    .p_text {
+                        font-size: 20px;
+                    }
+                    .image_decoration {
+                        background-image: url(../image/decoration/Frame\ 7\ \(1\).png);
+                        background-size: contain;
+                        width: 390px;
+                        height: 390px;
+                        position: absolute;
+                        right: -49px;
+                        bottom: -240px;
+                    }
+                }
+            }
+
+            .bloque_nm3 {
+                max-width: 1600px;
+
+                display: flex;
+                gap: 80px;
+                margin-top: 90px;
+                .image_muestra {
+                    width: 590px;
+                    height: 300px;
+                }
+                .v1 {
+                    background-image: url(../image/main_image/EbRpGuGWsAExSIY.jpg);
+                    background-size: cover;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        background-image: url(../image/decoration/Builder_Collect_Stars_Icon.png);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 120px;
+                        height: 120px;
+                        position: absolute;
+                        rotate: 317deg;
+                        top: -58px;
+                        left: -58px;
+                        z-index: -1;
+                    }
+                }
+                .v2 {
+                    background-image: url(../image/main_image/wuDxLrK.jpg);
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    cursor: pointer;
+                    overflow: hidden;
+                    
+                    &::after {
+                        content: '';
+                        background-image: url(../../path_svg/youtube.png);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 70px;
+                        height: 70px;
+                        position: absolute;
+                    }
+                    &:before {
+                        content: '';
+                        width: 0px;
+                        height: 0px;
+                        background-color: #ff000047;
+                        position: absolute;
+                        border-radius: 50%;
+                        transition: width 1s ease, height 1s ease; 
+                    }
+                    &:hover:before {
+                        width: 800px;
+                        height: 800px;
+                        border-radius: 50%;
+                    }
+                }
+            }           
+        }
+        .section-section_v2 {
+            .bloque_nm4 {
+                margin-top: 180px;
+                display: flex;
+                .elment-gradient {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    width: 100%;
+                    height: 150px;
+                    position: relative;
+                    background-image: linear-gradient(to top, #245FC6, #2887F0);
+                    .cont_wins {
+                        position: absolute;
+                        .image_wins {
+                            background-image: url(../image/decoration/Legend_League_Wins_Icon.png);
+                            width: 120px;
+                            height: 120px;
+                            background-size: contain;
+                            transform: translate(0px, 90px);
+                        }
+                    }
+                    .bloque_information {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        p {
+                            font-size: 30px;
+                            color: white;
+                        }
+                        .button-see {
+                            width: 160px;
+                            height: 45px;
+                            background-color: #FF0000;
+                            border-radius: 10px;
+                            border: none;
+                            font-weight: bold;
+                            color: white;
+                            cursor: pointer;
+                        }
+    
+                    }
+                    .image_hero {
+                        background-image: url(../image/hero/mini_pekka_fl.2902ff2f.webp);
+                        width: 200px;
+                        height: 200px;
+                        background-size: contain;
+                        transform: translate(0px, -18px);
+                    }
+                }                
+            }
+        }
+
+        .section-section_v3 {
+            display: flex;
+            justify-content: center;
+            margin-top: 90px;
+            .bloque_parche {
+                max-width: 1200px;
+                width: 1200px;          
+                span {
+                    font-size: 50px;
+                }                
+                .bloque_details {
+                    padding: 10px 80px;
+                    span {
+                        font-size: 30px;
+                        strong {
+                            color: #FF0000;
+                        }
+                    } 
+                    p, ul li {
+                        font-size: 20px;
+                    }                  
+                }
+            }
+        }
+    }
+}
