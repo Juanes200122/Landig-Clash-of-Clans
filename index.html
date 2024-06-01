@@ -204,18 +204,42 @@
             </section>
 
             <section class="section-section_v4">
-                <div class="slider_auto-img v1">
-                    <img src="" alt="">
-                </div>
-                <div class="slider_auto-img v2">
-                    <img src="" alt="">
-                </div>
+               
             </section>
 
 
 
             <footer class="footer-footer">
-           
+                <div class="element-v1">
+                    <div class="icons-svg">
+
+                    </div>
+                    <div class="links-banner-store">
+
+                    </div>
+                </div>
+                <hr class="line-line">
+                <div class="element-v2">
+                    <span href="#">Terms of Service</span>
+                    <span href="#">Privacy Policy</span>
+                    <span href="#">Parent's Guide</span>
+                    <span href="#">Safe and Fair Play Policy</span>
+                    <span href="#">Other Legal Docs</span>
+                    <span href="#">For Media</span>
+                    <span href="#">Our Domains</span>
+                    <span href="#">Manage Cookies</span>
+                </div>
+                <div class="element-v3">
+                    <div>
+                        <p>Supercell Oy</p>
+                        <p>Jätkäsaarenlaituri 1</p>
+                        <p>00180 Helsinki</p>
+                        <p>Finland</p>
+                    </div>
+                    <div>
+                        <div class="image_logo-clash"></div>
+                    </div>
+                </div>
             </footer>
             <br>
             <br>
@@ -223,13 +247,26 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
+
 
         </div>
     </div>
 
     <script src="assets/js/script.js"></script>
+
+    <script>
+           
+           window.onscroll = function () {
+            var posicion = window.pageYOffset || document.documentElement.scrollTop;
+            var elemento1 = document.getElementById("logo_move-2001");
+            var elemento2 = document.getElementById("logo_move-2002");
+
+            elemento1.style.right = posicion * 0.5 + "px";
+            elemento2.style.left = posicion * 0.5 + "px";
+
+        }
+        
+    </script>
 </body>
 
 </html>
