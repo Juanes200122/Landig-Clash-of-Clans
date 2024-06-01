@@ -37,12 +37,14 @@
 }
 .bloque_container .element_max .main-main .banner_clash .logoClash {
   width: 200px;
-  height: 100px;
+  height: 90px;
   background-color: #191919;
   background-image: url(../image/main_image/supercell_logo.38ec5826.webp);
   background-position: center;
-  background-size: 40%;
+  background-size: 35%;
   left: 200px;
+  position: fixed;
+  z-index: 99;
 }
 .bloque_container .element_max .main-main .link_pl {
   display: flex;
@@ -119,10 +121,10 @@
   border-radius: 10px;
 }
 .bloque_container .element_max .section-section .bloque_nm1 .blolque_information .image_machine-element_v1 {
-  background-image: url(../image/machine/Destrozamuros_info.webp);
+  background-image: url(../image/machine/siege-machine-flyer.png);
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 340px;
+  height: 340px;
   transform: scaleX(-1);
   position: absolute;
   right: 0;
@@ -136,10 +138,10 @@
   gap: 80px;
 }
 .bloque_container .element_max .section-section .bloque_nm2 .image_city {
-  background-image: url(../image/city-hall/town-hall-16.png);
+  background-image: url(../image/city-hall/TH16_Cam03_001.webp);
   background-size: contain;
-  width: 350px;
-  height: 350px;
+  width: 470px;
+  height: 470px;
   position: relative;
 }
 .bloque_container .element_max .section-section .bloque_nm2 .blolque_information {
@@ -168,7 +170,7 @@
   align-items: center;
 }
 .bloque_container .element_max .section-section .bloque_nm2 .blolque_information .h4_text .image_deecoration {
-  background-image: url(../image/decoration/halloween2015.png);
+  background-image: url(../image/decoration/bonus-gembox.png);
   background-size: contain;
   width: 100px;
   height: 100px;
@@ -215,7 +217,7 @@
   z-index: -1;
 }
 .bloque_container .element_max .section-section .bloque_nm3 .v2 {
-  background-image: url(../image/main_image/wuDxLrK.jpg);
+  background-image: url(../image/main_image/website_TH16_LoadingScreen.png);
   background-size: cover;
   display: flex;
   justify-content: center;
